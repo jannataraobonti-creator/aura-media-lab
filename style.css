@@ -6,9 +6,24 @@
 }
 
 body {
-    background-color: #05070a;
-    color: #ffffff;
-    scroll-behavior: smooth;
+    get-started-btn {
+    background: linear-gradient(45deg, #00d2ff, #3a7bd5);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 210, 255, 0.3);
+}
+
+.get-started-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 210, 255, 0.5);
+}highlight {
+    color: #00e5ff;
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+}
 }
 
 nav {
